@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+
+
+</head>
+<link rel="stylesheet" href="./sample.css">
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+   
+
+    <!-- NAVBAR -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- ABOUT -->
+    <section>
+        <h2>About Me</h2>
+        <p>I am a frontend developer.</p>
+        <img src="./Asin Updated.png" alt="profile">
+    </section>
+
+    <!-- PROJECTS -->
+    <section>
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <h3>Project 1</h3>
+                <p>obstacle avoidvance robot</p>
+            </div>
+
+            <div class="card">
+                <h3>Project 2</h3>
+                <p>blind shoe</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section>
+        <h2>Contact</h2>
+        <form>
+            <input type="text" placeholder="Name"> <br> <br>
+            <input type="email" placeholder="Email"><br><br>
+            <textarea placeholder="Message"></textarea><br><br>
+            <button type="button" onclick="showMessage()">Send</button>
+        </form>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 My Portfolio</p>
+    </footer>
+
+    <!-- JS BASIC -->
+    <script>
+        function showMessage() {
+            alert("Message sent!");
+        }
+    </script>
+
+</body>
+</html>
